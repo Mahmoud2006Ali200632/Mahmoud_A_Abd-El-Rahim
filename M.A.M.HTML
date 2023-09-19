@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=work+sans:wght200;300;400;500;600;700;800&display=swap"/>
+    <link rel="icon" href="m.a.m.png"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link rel="stylesheet" href="css/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/css/css.css">
+    <title>Mahmoud.Ali.Mahmoud</title>
+    <style>
+        .hidde{
+display: none;
+        }
+        #ul{
+            font-size: 22px;
+text-decoration: none;
+list-style: none;
+margin-right:0;
+
+        }
+        ul li a{
+            display: block;
+            font-size: 22px;
+text-decoration: none;
+list-style: none;
+background-color:royalblue;
+border-radius: 80px 5px;
+text-align: center;
+align-items: center;
+justify-content: center;
+border-bottom: 8px;
+
+        }
+        .mam {
+            
+            font-size: 22px;
+            text-decoration: none;
+            list-style: none;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+    
+    
+            }
+        .mam a{
+            
+        font-size: 22px;
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        line-height: 8%;
+        letter-spacing: 8%;
+
+
+        }
+
+        .mam a:hover{
+            
+            font-size: 24px;
+        
+            }
+
+        .ma{
+            text-align: center;
+            align-items: center;
+            margin: 100px 0;
+
+        }
+
+        .loader1 {
+  width: 100%;
+  height: 5px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+.loader1::after {
+  content: '';  
+  width: 150px;
+  height: 5px;
+  background: royalblue;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  animation: hitZak 1s ease-in-out infinite alternate;
+}
+
+@keyframes hitZak {
+  0% {
+    left: 0;
+    transform: translateX(-1%);
+  }
+  100% {
+    left: 100%;
+    transform: translateX(-99%);
+  }
+}
+    
+.loader2 {
+  font-size: 48px;
+  font-weight: 600;
+  display: inline-block;
+  letter-spacing: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: royalblue;
+  box-sizing: border-box;
+  animation: spotlight 2s linear infinite alternate;
+}
+
+@keyframes spotlight {
+  0% , 20% {
+    opacity: 1;
+    letter-spacing: 2px;
+   }
+ 80% , 100% {
+    opacity: 0;
+    letter-spacing: 32px;
+   }
+}
+.loader {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  background: linear-gradient(0deg, rgba(0, 149, 255, 0.2) 33%, royalblue 100%);
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+.loader::after {
+  content: '';  
+  box-sizing: border-box;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #263238;
+}
+@keyframes rotation {
+  0% { transform: rotate(0deg) }
+  100% { transform: rotate(360deg)}
+} 
+.ma{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+  margin: 80px 10px;
+  color: royalblue;
+font: 2.5em sans-serif;
+}
+.mah{
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 30px;
+  color: rgb(0, 73, 169);
+  background: linear-gradient(0deg, rgba(0, 149, 255, 0.2) 33%, royalblue 100%);
+font: 1.5em sans-serif;
+}
+.loader1 {
+  width: 100%;
+  height: 5px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+.loader1::after {
+  content: '';  
+  width: 150px;
+  height: 5px;
+  background: royalblue;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  animation: hitZak 1s ease-in-out infinite alternate;
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="m.a.m0.png" alt="" width="50" height="50"  >
+          </a>
+          <p id="align"class=""  >
+            <a href="#" style="color: #fff;"  id="A1a">  <i class="fa fa-bars  navbar-brand" aria-hidden="true" style="font-size: 22px; margin: 0 25px;"></i></a>
+          </p><p id="times" class="hidde">
+          <a href="#" id="A2a" style="color: #fff";>  <i id="times" class="fa fa-xmark navbar-brand" aria-hidden="true" style="font-size: 22px; margin: 0 25px;"></i></a>
+        </p>
+    </div>
+        
+            
+      </nav>
+
+      <div class="hidde navbar bg-dark container " id="list">
+<ul id="ul" style="color: #000;"  class="  container navbar-brand">
+    <li ><a id="li" class="container navbar-brand " style="color: #000;" href="#ho">Home</a></li>
+    <li><a id="li1" class="container navbar-brand" style="color: #000;" href="#ad">Adout</a></li>
+    <li><a id="li2" class="container navbar-brand" style="color: #000;"  href="#co">contact </a></li>
+   </ul>
+      </div>
+
+
+<div class="ma">
+      <span class="loader2">Mahmoud</span></div>
+<div id="ho" class="container" style="margin-top: 100px; width:80%; height: 5%; text-align:center;">
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="m.a.m.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Mahmoud_A_AbdELrahim</h5>
+              <p>Website developer...</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="ma1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Mahmoud_A_AbdELrahim</h5>
+                <p>Website developer...</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="m.a.m6.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Mahmoud_A_AbdELrahim</h5>
+                <p>Website developer...</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+</div>
+
+<div class="card mb-3 container" style="max-width: 540px; margin-top: 150px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="ma2.jpg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Mahmoud Ali</h5>
+          <p class="card-text">
+            Website developer specializing in Front End And Back End...   
+            Full Stack website developer...     </p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+<span class="loader1"></span>
+
+
+
+  <div  style="margin: 100px 30px;" id="ad">
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <video controls>
+                <source src="vi1.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            </video>
+        
+            <div class="card-body">
+              <h5 class="card-title"> Website</h5>
+              <p class="card-text">A website to download an application to help the device speed up and reduce voltage...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <video controls>
+                <source src="vi2.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            </video>
+            <div class="card-body">
+              <h5 class="card-title"> Portfolio</h5>
+              <p class="card-text">A clipboard for storing names, products, numbers, and codes safely...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <video controls>
+                <source src="vi3.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            </video>
+            <div class="card-body">
+              <h5 class="card-title"> platform</h5>
+              <p class="card-text">An electronic platform for displaying videos securely...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <video controls>
+                <source src="vi4.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            </video>
+            <div class="card-body">
+              <h5 class="card-title"> Collection</h5>
+              <p class="card-text">A collection of the simplest and easiest sites...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+
+
+
+
+
+
+  <div id="co">
+
+    <div 
+    class="ma"
+    >
+      Developed By:/:
+      <span>M</span>
+      <span>A</span>
+      <span>H</span>
+      <span>M</span>
+      <span class="loader"></span>
+      <span>U</span>
+      <span>D</span>
+    
+    <span class="loader1"></span>
+    </div>
+    <div class="mam">
+        <a href="https://www.facebook.com/mahmoud.alimahmoud.7106?mibextid=2JQ9oc"> <i  style="color: blue;"   class="fab fa-facebook"></i> </a>
+        <a href="https://www.instagram.com/mahmoud.alimahmoud.7106/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"> <i  style="color: rgb(219, 12, 98);"  class="fab fa-instagram"></i> </a>
+        <a href="https://t.me/Mahmoud_A_AbdELrahim"> <i  style="color: rgb(59, 59, 230);"  class="fab fa-telegram"></i> </a>
+        <a href="https://api.whatsapp.com/send?phone=201202733405"> <i  style="color: rgb(0, 255, 0);"  class="fab fa-whatsapp"></i> </a>
+</div>
+     <p class="mah">All Right Reserved &copy; 2024...</p>
+    
+    </div>
+    </div>
+      <script src="css/js/query.com_jquery-3.7.1.min.js"></script>
+      <script src="css/js/bootstrap.min.js"></script>    
+      <script>
+let list = document.getElementById('list')
+
+let align =document.getElementById('align');
+        let times = document.getElementById('times');
+        align?.addEventListener('click' ,function(){
+            list.classList.remove("hidde")});
+            align?.addEventListener('click' ,function(){
+                times.classList.remove("hidde")});
+        align?.addEventListener('click',function(){
+            align.classList.add("hidde")});
+
+            times?.addEventListener('click' ,function(){
+            list.classList.add("hidde")});
+            times?.addEventListener('click' ,function(){
+                align.classList.remove("hidde")});
+                times?.addEventListener('click',function(){
+                    times.classList.add("hidde")});
+
+      </script>
+</body>
+</html>
